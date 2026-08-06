@@ -37,18 +37,18 @@
 # name = "Bob"
 # print(name)
 
-# class Student:
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
-# 
-#     def study(self):
-#         print(f"Учусь студент {self.name}, возраст {self.age} лет.")
-# 
-#     def birthday(self):
-#         self.age += 1
-#         print(f"{self.name} исполнилось {self.age}")
-# 
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def study(self):
+        print(f"Учусь студент {self.name}, возраст {self.age} лет.")
+
+    def birthday(self):
+        self.age += 1
+        print(f"{self.name} исполнилось {self.age}")
+
 # s1 = Student("Ali", 20)
 # s2 = Student("Bob", 19)
 # s3 = Student("Alice", 18)
